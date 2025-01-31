@@ -15,8 +15,8 @@ import ContactForm from "./components/Contact";
 // import certificate3 from './components/files/certificate3.pdf';  
 // import certificate4 from './components/files/certificate4.pdf';  
 // import certificate5 from './components/files/certificate5.pdf';  
-// import certificate6 from './components/files/certificate6.pdf';  
-// import resume from './components/files/resume.pdf';  
+import certificate6 from './components/files/certificate6.pdf';  
+import resume from './components/files/resume.pdf';  
 import profile from './components/files/profile.png';
 // import SWC from "./components/files/CWS.png"; 
 // import SG from "./components/files/SG.png"; 
@@ -312,7 +312,7 @@ const Portfolio = () => {
 
         {/* Download Resume Button */}
         <a
-          href="./components/files/resume.pdf"  // Ensure this path is correct
+          href={resume}  // Ensure this path is correct
           download="Vinod_Kudkyal_Resume"
           className="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:shadow-xl hover:bg-blue-700 transition-all duration-300"
         >
@@ -528,7 +528,7 @@ const Portfolio = () => {
           title: "Internet of Things 101",
           issuedBy: "Infosys Springboard",
           description: "A basic level certification for understanding IoT technology and its practical implementations.",
-          link: "./components/files{certificate6.pdf"  // Update this with the actual path to the PDF
+          link: {certificate6}  // Update this with the actual path to the PDF
         }
       ].map((cert, index) => (
         <motion.div
