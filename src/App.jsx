@@ -17,7 +17,7 @@ import ContactForm from "./components/Contact";
 // import certificate5 from './components/files/certificate5.pdf';  
 // import certificate6 from './components/files/certificate6.pdf';  
 // import resume from './components/files/resume.pdf';  
-import profile from "./src/components/files/profile.png";
+// import profile from "./src/components/files/profile.png";
 // import SWC from "./components/files/CWS.png"; 
 // import SG from "./components/files/SG.png"; 
 // import SLD from "./components/files/SLD.png"; 
@@ -129,7 +129,6 @@ const Portfolio = () => {
         className="w-80 h-80 rounded-full overflow-hidden ring-4 ring-white shadow-2xl"
       >
         <motion.img
-{/*           src={profile} */}
         src="./components/files/profile.png"
           alt="Profile"
           className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110"
@@ -247,7 +246,6 @@ const Portfolio = () => {
       {/* Profile Image */}
       <div className="order-1 md:order-2">
         <img
-{/*           src={profile} */}
          src="./components/files/profile.png"
           alt="About"
           className="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
