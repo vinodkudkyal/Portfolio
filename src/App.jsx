@@ -17,7 +17,7 @@ import ContactForm from "./components/Contact";
 // import certificate5 from './components/files/certificate5.pdf';  
 // import certificate6 from './components/files/certificate6.pdf';  
 // import resume from './components/files/resume.pdf';  
-import profile from "./components/files/profile.png";
+import profile from "/components/files/profile.png";
 // import SWC from "./components/files/CWS.png"; 
 // import SG from "./components/files/SG.png"; 
 // import SLD from "./components/files/SLD.png"; 
