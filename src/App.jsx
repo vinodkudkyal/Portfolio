@@ -312,7 +312,7 @@ const Portfolio = () => {
 
         {/* Download Resume Button */}
         <a
-          href={resume}  // Ensure this path is correct
+          href="./components/files/resume.pdf"  // Ensure this path is correct
           download="Vinod_Kudkyal_Resume"
           className="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:shadow-xl hover:bg-blue-700 transition-all duration-300"
         >
@@ -498,37 +498,37 @@ const Portfolio = () => {
           title: "Machine Learning A-Z: AI, Python & R + ChatGPT Prize [2024]",
           issuedBy: "Udemy",
           description: "A comprehensive course covering machine learning algorithms and their implementation using Python, R, and ChatGPT.",
-          link: {certificate1}  // Update this with the actual path to the PDF
+          link:"./components/files/certificate1.pdf" // Update this with the actual path to the PDF
         },
         {
           title: "Python (Basic)",
           issuedBy: "HackerRank",
           description: "Certification for basic Python programming skills, validating foundational knowledge in Python.",
-          link: {certificate2}  // Update this with the actual path to the PDF
+          link:"./components/files/certificate2.pdf" // Update this with the actual path to the PDF
         },
         {
           title: "Introduction to Machine Learning",
           issuedBy: "NPTEL",
           description: "A course introducing the core concepts of machine learning and its real-world applications.",
-          link: {certificate3}  // Update this with the actual path to the PDF
+          link: "./components/files/certificate3.pdf"  // Update this with the actual path to the PDF
         },
         {
           title: "Java Course - Mastering the Fundamentals",
           issuedBy: "Scaler",
           description: "Mastered the fundamentals of Java programming with hands-on experience in object-oriented concepts.",
-          link: {certificate4}  // Update this with the actual path to the PDF
+          link: "./components/files/certificate4.pdf" // Update this with the actual path to the PDF
         },
         {
           title: "Internet of Things Foundation Certification",
           issuedBy: "Infosys Springboard",
           description: "An introductory certification to the fundamentals of IoT and its applications.",
-          link: {certificate5}  // Update this with the actual path to the PDF
+          link: "./components/files/certificate5.pdf" // Update this with the actual path to the PDF
         },
         {
           title: "Internet of Things 101",
           issuedBy: "Infosys Springboard",
           description: "A basic level certification for understanding IoT technology and its practical implementations.",
-          link: {certificate6}  // Update this with the actual path to the PDF
+          link: "./components/files{certificate6.pdf"  // Update this with the actual path to the PDF
         }
       ].map((cert, index) => (
         <motion.div
