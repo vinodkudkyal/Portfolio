@@ -10,18 +10,18 @@ import {
   Layout
 } from 'lucide-react';
 import ContactForm from "./components/Contact";
-import certificate1 from './components/files/certificate1.pdf';  
-import certificate2 from './components/files/certificate2.pdf';  
-import certificate3 from './components/files/certificate3.pdf';  
-import certificate4 from './components/files/certificate4.pdf';  
-import certificate5 from './components/files/certificate5.pdf';  
-import certificate6 from './components/files/certificate6.pdf';  
-import resume from './components/files/resume.pdf';  
-import profile from "./components/files/profile.png"; 
-import SWC from "./components/files/CWS.png"; 
-import SG from "./components/files/SG.png"; 
-import SLD from "./components/files/SLD.png"; 
-import VSM from "./components/files/VMS.png"; 
+// import certificate1 from './components/files/certificate1.pdf';  
+// import certificate2 from './components/files/certificate2.pdf';  
+// import certificate3 from './components/files/certificate3.pdf';  
+// import certificate4 from './components/files/certificate4.pdf';  
+// import certificate5 from './components/files/certificate5.pdf';  
+// import certificate6 from './components/files/certificate6.pdf';  
+// import resume from './components/files/resume.pdf';  
+// import profile from "./components/files/profile.png"; 
+// import SWC from "./components/files/CWS.png"; 
+// import SG from "./components/files/SG.png"; 
+// import SLD from "./components/files/SLD.png"; 
+// import VSM from "./components/files/VMS.png"; 
 
 
 const Portfolio = () => {
@@ -129,7 +129,7 @@ const Portfolio = () => {
         className="w-80 h-80 rounded-full overflow-hidden ring-4 ring-white shadow-2xl"
       >
         <motion.img
-          src={profile}
+          src="./components/files/profile.png"
           alt="Profile"
           className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110"
         />
@@ -246,7 +246,7 @@ const Portfolio = () => {
       {/* Profile Image */}
       <div className="order-1 md:order-2">
         <img
-          src={profile}
+          src="./components/files/profile.png"
           alt="About"
           className="rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
         />
@@ -348,7 +348,7 @@ const Portfolio = () => {
       >
         <div className="relative">
           <img
-            src={VSM}
+            src="./components/files/VMS.png"
             alt="Vaccine Management"
             className="w-full h-56 object-cover"
           />
@@ -382,7 +382,7 @@ const Portfolio = () => {
       >
         <div className="relative">
           <img
-            src={CWS}
+            src="./components/files/CWS.png"
             alt="Calculator with Steganography"
             className="w-full h-56 object-cover"
           />
@@ -416,7 +416,7 @@ const Portfolio = () => {
       >
         <div className="relative">
           <img
-            src={SG}
+            src="./components/filesSG.png"
             alt="StudyGears"
             className="w-full h-56 object-cover"
           />
@@ -450,7 +450,7 @@ const Portfolio = () => {
       >
         <div className="relative">
           <img
-            src={SLD}
+            src="./components/files/SLD.png"
             alt="Sign Language Detection"
             className="w-full h-56 object-cover"
           />
