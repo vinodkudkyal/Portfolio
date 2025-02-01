@@ -434,7 +434,7 @@ const Portfolio = () => {
         </p>
         <div className="flex justify-between items-center">
           <a
-            href="https://github.com/vinodkudkyal/Rock-And-Rolls"
+            href="https://github.com/vinodkudkyal/Rock-And-Rolls.git"
             target="_blank"
             className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
           >
