@@ -528,7 +528,7 @@ const Portfolio = () => {
           title: "Internet of Things 101",
           issuedBy: "Infosys Springboard",
           description: "A basic level certification for understanding IoT technology and its practical implementations.",
-          link: {certificate6}  // Update this with the actual path to the PDF
+          link:"./components/files/certificate6.pdf"  // Update this with the actual path to the PDF
         }
       ].map((cert, index) => (
         <motion.div
