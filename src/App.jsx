@@ -1,4 +1,5 @@
-import { GitHub, Linkedin, Mail ,Instagram, MessageCircle } from 'react-feather';
+// import { GitHub, Linkedin, Mail ,Instagram, MessageCircle } from 'react-feather';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
@@ -609,7 +610,7 @@ const Portfolio = () => {
     </div>
 
     {/* Additional Contact Info */}
-    <div className="text-center text-gray-600">
+{/*     <div className="text-center text-gray-600">
       <p className="text-lg mb-4">Or reach out to me directly:</p>
       <div className="flex flex-wrap justify-center space-x-6 text-xl">
         <a
@@ -652,6 +653,51 @@ const Portfolio = () => {
         >
           <MessageCircle className="w-6 h-6" />
           <span className="ml-2">Whatsapp</span>
+        </a>
+      </div> */}
+      <div className="text-center text-gray-600">
+      <p className="text-lg mb-4">Or reach out to me directly:</p>
+      <div className="flex flex-wrap justify-center space-x-6 text-xl">
+        <a
+          href="mailto:vinodkudkyal2005@gmail.com"
+          className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
+        >
+          <FaEnvelope className="w-6 h-6" />
+          <span className="ml-2">Email</span>
+        </a>
+        <a
+          href="https://github.com/vinodkudkyal"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
+        >
+          <FaGithub className="w-6 h-6" />
+          <span className="ml-2">GitHub</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/vinod-kudkyal-98936023a"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
+        >
+          <FaLinkedin className="w-6 h-6" />
+          <span className="ml-2">LinkedIn</span>
+        </a>
+        <a
+          href="https://www.instagram.com/vinodkudkyal2005"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
+        >
+          <FaInstagram className="w-6 h-6" />
+          <span className="ml-2">Instagram</span>
+        </a>
+        <a
+          href="https://wa.me/7666074208"
+          className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
+        >
+          <FaWhatsapp className="w-6 h-6" />
+          <span className="ml-2">WhatsApp</span>
         </a>
       </div>
 
