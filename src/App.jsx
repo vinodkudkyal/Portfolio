@@ -22,6 +22,7 @@ import CWS from "./components/files/CWS.png";
 import SG from "./components/files/SG.png"; 
 import SLD from "./components/files/SLD.png"; 
 import VMS from "./components/files/VMS.png"; 
+import RAR from "./components/files/RAR.png"; 
 
 
 const Portfolio = () => {
@@ -408,15 +409,16 @@ const Portfolio = () => {
         </div>
       </motion.div>
 
+
+         {/* Cafe Management */}
       <motion.div
       key="Rock & Rolls (Cafe-Management-System)"
       whileHover={{ y: -10 }}
       className="bg-white rounded-xl shadow-xl overflow-hidden"
     >
-         {/* Cafe Management */}
       <div className="relative">
         <img
-          src={VMS}
+          src={RAR}
           alt="Cafe Management"
           className="w-full h-56 object-cover"
         />
