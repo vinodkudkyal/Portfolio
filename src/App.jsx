@@ -424,13 +424,13 @@ const Portfolio = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
         <div className="absolute bottom-4 left-4 text-white">
-          <h3 className="text-xl font-semibold">Cafe Management System</h3>
+          <h3 className="text-xl font-semibold">Rock & Rolls (Cafe-Management-System)</h3>
           <p className="text-sm opacity-80">Eclipse • Java • MVC</p>
         </div>
       </div>
       <div className="p-6">
         <p className="text-gray-600 mb-4">
-          Cafe management system with live order tracking, food preparation progress updates, and automated billing.
+          Cafe management system (Rock And Rolls) with live order tracking, food preparation progress updates, and automated billing.
         </p>
         <div className="flex justify-between items-center">
           <a
