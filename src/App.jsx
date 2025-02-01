@@ -16,7 +16,7 @@ import ContactForm from "./components/Contact";
 // import certificate4 from './components/files/certificate4.pdf';  
 // import certificate5 from './components/files/certificate5.pdf';  
 // import certificate6 from './components/files/certificate6.pdf';  
-// import resume from './components/files/resume.pdf';  
+import resume from './components/files/resume.pdf';  
 import profile from './components/files/profile.png';
 import CWS from "./components/files/CWS.png"; 
 import SG from "./components/files/SG.png"; 
@@ -312,7 +312,7 @@ const Portfolio = () => {
 
         {/* Download Resume Button */}
         <a
-          href="./components/files/resume.pdf"  // Ensure this path is correct
+          src={resume}  // Ensure this path is correct
           download="Vinod_Kudkyal_Resume"
           className="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:shadow-xl hover:bg-blue-700 transition-all duration-300"
         >
