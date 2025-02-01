@@ -312,7 +312,7 @@ const Portfolio = () => {
 
         {/* Download Resume Button */}
         <a
-          href={resume}  // Ensure this path is correct
+          href="./components/files/resume.pdf"  // Ensure this path is correct
           download="Vinod_Kudkyal_Resume"
           className="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:shadow-xl hover:bg-blue-700 transition-all duration-300"
         >
