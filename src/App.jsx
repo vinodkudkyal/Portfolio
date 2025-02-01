@@ -10,12 +10,12 @@ import {
   Layout
 } from 'lucide-react';
 import ContactForm from "./components/Contact";
-// import certificate1 from './components/files/certificate1.pdf';  
-// import certificate2 from './components/files/certificate2.pdf';  
-// import certificate3 from './components/files/certificate3.pdf';  
-// import certificate4 from './components/files/certificate4.pdf';  
-// import certificate5 from './components/files/certificate5.pdf';  
-// import certificate6 from './components/files/certificate6.pdf';  
+import certificate1 from './components/files/certificate1.pdf';  
+import certificate2 from './components/files/certificate2.pdf';  
+import certificate3 from './components/files/certificate3.pdf';  
+import certificate4 from './components/files/certificate4.pdf';  
+import certificate5 from './components/files/certificate5.pdf';  
+import certificate6 from './components/files/certificate6.pdf';  
 import resume from './components/files/resume.pdf';  
 import profile from './components/files/profile.png';
 import CWS from "./components/files/CWS.png"; 
@@ -498,37 +498,37 @@ const Portfolio = () => {
           title: "Machine Learning A-Z: AI, Python & R + ChatGPT Prize [2024]",
           issuedBy: "Udemy",
           description: "A comprehensive course covering machine learning algorithms and their implementation using Python, R, and ChatGPT.",
-          link:"./components/files/certificate1.pdf" // Update this with the actual path to the PDF
+          link:{certificate1} // Update this with the actual path to the PDF
         },
         {
           title: "Python (Basic)",
           issuedBy: "HackerRank",
           description: "Certification for basic Python programming skills, validating foundational knowledge in Python.",
-          link:"./components/files/certificate2.pdf" // Update this with the actual path to the PDF
+          link:{certificate2} // Update this with the actual path to the PDF
         },
         {
           title: "Introduction to Machine Learning",
           issuedBy: "NPTEL",
           description: "A course introducing the core concepts of machine learning and its real-world applications.",
-          link: "./components/files/certificate3.pdf"  // Update this with the actual path to the PDF
+          link:{certificate3} // Update this with the actual path to the PDF
         },
         {
           title: "Java Course - Mastering the Fundamentals",
           issuedBy: "Scaler",
           description: "Mastered the fundamentals of Java programming with hands-on experience in object-oriented concepts.",
-          link: "./components/files/certificate4.pdf" // Update this with the actual path to the PDF
+          link:{certificate4} // Update this with the actual path to the PDF
         },
         {
           title: "Internet of Things Foundation Certification",
           issuedBy: "Infosys Springboard",
           description: "An introductory certification to the fundamentals of IoT and its applications.",
-          link: "./components/files/certificate5.pdf" // Update this with the actual path to the PDF
+          link:{certificate5} // Update this with the actual path to the PDF
         },
         {
           title: "Internet of Things 101",
           issuedBy: "Infosys Springboard",
           description: "A basic level certification for understanding IoT technology and its practical implementations.",
-          link:"./components/files/certificate6.pdf"  // Update this with the actual path to the PDF
+          link:{certificate6}  // Update this with the actual path to the PDF
         }
       ].map((cert, index) => (
         <motion.div
