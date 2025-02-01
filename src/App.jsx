@@ -1,5 +1,5 @@
 // import { GitHub, Linkedin, Mail ,Instagram, MessageCircle } from 'react-feather';
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaWhatsapp , FaXTwitter } from 'react-icons/fa';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
@@ -691,6 +691,15 @@ const Portfolio = () => {
         >
           <FaInstagram className="w-6 h-6" />
           <span className="ml-2">Instagram</span>
+        </a>
+        <a
+          href="https://x.com/KudkyalVinod"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
+        >
+          <FaXTwitter className="w-6 h-6" />
+          <span className="ml-2">X (Twitter)</span>
         </a>
         <a
           href="https://wa.me/7666074208"
