@@ -647,7 +647,7 @@ const Portfolio = () => {
           <span className="ml-2">Instagram</span>
         </a>
         <a
-          href="tel:+917666074208"
+          href="https://wa.me/7666074208"
           className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
         >
           <Phone className="w-6 h-6" />
