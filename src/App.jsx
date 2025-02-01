@@ -651,7 +651,7 @@ const Portfolio = () => {
           className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
         >
           <MessageCircle className="w-6 h-6" />
-          <span className="ml-2">Phone</span>
+          <span className="ml-2">Whatsapp</span>
         </a>
       </div>
 
