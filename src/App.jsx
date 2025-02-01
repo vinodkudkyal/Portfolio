@@ -1,4 +1,4 @@
-import { GitHub, Linkedin, Mail ,Instagram, Phone } from 'react-feather';
+import { GitHub, Linkedin, Mail ,Instagram, MessageCircle } from 'react-feather';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
@@ -650,7 +650,7 @@ const Portfolio = () => {
           href="https://wa.me/7666074208"
           className="text-blue-600 hover:text-blue-700 flex items-center mb-4 sm:mb-0"
         >
-          <Phone className="w-6 h-6" />
+          <MessageCircle className="w-6 h-6" />
           <span className="ml-2">Phone</span>
         </a>
       </div>
