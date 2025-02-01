@@ -1,5 +1,6 @@
 // import { GitHub, Linkedin, Mail ,Instagram, MessageCircle } from 'react-feather';
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaWhatsapp , FaXTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaWhatsapp} from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
