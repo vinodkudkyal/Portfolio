@@ -312,8 +312,8 @@ const Portfolio = () => {
 
         {/* Download Resume Button */}
         <a
-          //src={resume}  // Ensure this path is correct
-          download={resume}
+          src={resume}  // Ensure this path is correct
+          download="Vinod_Resume"
           className="px-6 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:shadow-xl hover:bg-blue-700 transition-all duration-300"
         >
           Download Resume
