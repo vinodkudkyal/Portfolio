@@ -409,7 +409,7 @@ const Portfolio = () => {
       </motion.div>
 
       <motion.div
-      key="Cafe-Management-System"
+      key="Rock & Rolls (Cafe-Management-System)"
       whileHover={{ y: -10 }}
       className="bg-white rounded-xl shadow-xl overflow-hidden"
     >
@@ -432,7 +432,7 @@ const Portfolio = () => {
         </p>
         <div className="flex justify-between items-center">
           <a
-            href="https://github.com/your-repo-link"
+            href="https://github.com/vinodkudkyal/Rock-And-Rolls"
             target="_blank"
             className="text-blue-600 hover:text-blue-800 font-medium flex items-center"
           >
