@@ -70,7 +70,7 @@ const Portfolio = () => {
           { id: 'projects', icon: <Briefcase size={18} />, label: 'Projects' },
           // { id: 'tech-stack', icon: <Layout size={18} />, label: 'Stack' },
           { id: 'certifications', icon: <Award size={18} />, label: 'Certificats' },
-          { id: 'contact', icon: <Mail size={18} />, label: 'Contact' },
+          { id: 'contact', icon: <FaEnvelope size={18} />, label: 'Contact' },
         ].map((item) => (
           <button
             key={item.id}
