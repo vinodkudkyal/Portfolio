@@ -498,31 +498,31 @@ const Portfolio = () => {
           title: "Machine Learning A-Z: AI, Python & R + ChatGPT Prize [2024]",
           issuedBy: "Udemy",
           description: "A comprehensive course covering machine learning algorithms and their implementation using Python, R, and ChatGPT.",
-          link:"certificate1" // Update this with the actual path to the PDF
+          link:certificate1 // Update this with the actual path to the PDF
         },
         {
           title: "Python (Basic)",
           issuedBy: "HackerRank",
           description: "Certification for basic Python programming skills, validating foundational knowledge in Python.",
-          link:"certificate2" // Update this with the actual path to the PDF
+          link:certificate2 // Update this with the actual path to the PDF
         },
         {
           title: "Introduction to Machine Learning",
           issuedBy: "NPTEL",
           description: "A course introducing the core concepts of machine learning and its real-world applications.",
-          link:"certificate3" // Update this with the actual path to the PDF
+          link:certificate3 // Update this with the actual path to the PDF
         },
         {
           title: "Java Course - Mastering the Fundamentals",
           issuedBy: "Scaler",
           description: "Mastered the fundamentals of Java programming with hands-on experience in object-oriented concepts.",
-          link:"certificate4" // Update this with the actual path to the PDF
+          link:certificate4 // Update this with the actual path to the PDF
         },
         {
           title: "Internet of Things Foundation Certification",
           issuedBy: "Infosys Springboard",
           description: "An introductory certification to the fundamentals of IoT and its applications.",
-          link:"certificate5" // Update this with the actual path to the PDF
+          link:certificate5 // Update this with the actual path to the PDF
         },
         {
           title: "Internet of Things 101",
