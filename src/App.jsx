@@ -112,15 +112,23 @@ const Portfolio = () => {
   </div>
 
   <div className="relative max-w-6xl mx-auto px-4 py-20 flex flex-col items-center justify-center min-h-screen lg:flex-row lg:items-center lg:justify-between">
-    {/* ile Picture Section */}
+    {/* Profile Picture Section */}
     <motion.div
       initial={{ x: -100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 1 }}
-      className="relative mb-8 lg:mb-0 lg:w-1/3"
-    >
+      className="relative mb-8 lg:mb-0 lg:w-1/3 lg:mr-8" 
+    >{/* Added lg:mr-8 for spacing */}
+      {/* Gradient Glow Background */}
       <motion.div
-        // Bounce animation when not hovered, stays in the same place
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1.5, repeat: Infinity, repeatType: "mirror" }}
+        className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 rounded-full blur-2xl opacity-50"
+      ></motion.div>
+
+      {/* Profile Picture */}
+      <motion.div
         animate={{
           y: [0, 10, 0],  // Small bounce effect, limited to 10px
         }}
@@ -129,10 +137,10 @@ const Portfolio = () => {
           repeat: Infinity,
           repeatType: "loop",
         }}
-        className="w-80 h-80 rounded-full overflow-hidden ring-4 ring-white shadow-2xl"
+        className="w-80 h-80 rounded-full overflow-hidden ring-4 ring-white shadow-2xl relative"
       >
         <motion.img
-        src={profile}
+          src={profile}
           alt="Profile"
           className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110"
         />
@@ -141,7 +149,6 @@ const Portfolio = () => {
         <Code size={24} />
       </div>
     </motion.div>
-
 
     {/* Text and Buttons Section */}
     <div className="text-center lg:text-left lg:w-2/3">
@@ -191,7 +198,6 @@ const Portfolio = () => {
     </div>
   </div>
 </motion.section>
-
 
         {/* About Section - Left-aligned with modern design */}
         <motion.section
